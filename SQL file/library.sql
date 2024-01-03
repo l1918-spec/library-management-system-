@@ -41,7 +41,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `FullName`, `AdminEmail`, `UserName`, `Password`, `updationDate`) VALUES
-(1, 'Anuj Kumar', 'admin@gmail.com', 'admin', 'f925916e2754e5e03f75dd58a5733251', '2022-01-08 06:03:56');
+(1, 'lydia', 'admin@gmail.com', 'admin', 'f925916e2754e5e03f75dd58a5733251', '2023-01-08 06:03:56');
 
 -- --------------------------------------------------------
 
@@ -99,13 +99,13 @@ CREATE TABLE `tblbooks` (
 INSERT INTO `tblbooks` (`id`, `BookName`, `CatId`, `AuthorId`, `ISBNNumber`, `BookPrice`, `bookImage`, `isIssued`, `RegDate`, `UpdationDate`) VALUES
 (1, 'PHP And MySql programming', 5, 1, '222333', '20.00', '1efecc0ca822e40b7b673c0d79ae943f.jpg', 1, '2022-01-22 07:23:03', '2022-01-22 16:24:13'),
 (3, 'physics', 6, 4, '1111', '15.00', 'dd8267b57e0e4feee5911cb1e1a03a79.jpg', 0, '2022-01-22 07:23:03', '2022-01-22 16:24:17'),
-(5, 'Murach\'s MySQL', 5, 1, '9350237695', '455.00', '5939d64655b4d2ae443830d73abc35b6.jpg', 1, '2022-01-21 16:42:11', '2022-01-22 06:11:03'),
-(6, 'WordPress for Beginners 2022: A Visual Step-by-Step Guide to Mastering WordPress', 5, 10, 'B019MO3WCM', '100.00', '144ab706ba1cb9f6c23fd6ae9c0502b3.jpg', NULL, '2022-01-22 07:16:07', '2022-01-22 07:20:49'),
-(7, 'WordPress Mastery Guide:', 5, 11, 'B09NKWH7NP', '53.00', '90083a56014186e88ffca10286172e64.jpg', NULL, '2022-01-22 07:18:03', '2022-01-22 07:20:58'),
-(8, 'Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not', 8, 12, 'B07C7M8SX9', '120.00', '52411b2bd2a6b2e0df3eb10943a5b640.jpg', NULL, '2022-01-22 07:20:39', NULL),
-(9, 'The Girl Who Drank the Moon', 8, 13, '1848126476', '200.00', 'f05cd198ac9335245e1fdffa793207a7.jpg', NULL, '2022-01-22 07:22:33', NULL),
-(10, 'C++: The Complete Reference, 4th Edition', 5, 14, '007053246X', '142.00', '36af5de9012bf8c804e499dc3c3b33a5.jpg', 0, '2022-01-22 07:23:36', '2022-01-22 08:18:22'),
-(11, 'ASP.NET Core 5 for Beginners', 9, 11, 'GBSJ36344563', '422.00', 'b1b6788016bbfab12cfd2722604badc9.jpg', 0, '2022-01-22 08:14:21', '2022-01-22 08:15:23');
+(5, 'Murach\'s MySQL', 5, 1, '9350237695', '455.00', '5939d64655b4d2ae443830d73abc35b6.jpg', 1, '2023-01-21 16:42:11', '2024-01-22 06:11:03'),
+(6, 'WordPress for Beginners 2022: A Visual Step-by-Step Guide to Mastering WordPress', 5, 10, 'B019MO3WCM', '100.00', '144ab706ba1cb9f6c23fd6ae9c0502b3.jpg', NULL, '2023-01-22 07:16:07', '2024-01-22 07:20:49'),
+(7, 'WordPress Mastery Guide:', 5, 11, 'B09NKWH7NP', '53.00', '90083a56014186e88ffca10286172e64.jpg', NULL, '2024-01-22 07:18:03', '2025-01-22 07:20:58'),
+(8, 'Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not', 8, 12, 'B07C7M8SX9', '120.00', '52411b2bd2a6b2e0df3eb10943a5b640.jpg', NULL, '2024-01-22 07:20:39', NULL),
+(9, 'The Girl Who Drank the Moon', 8, 13, '1848126476', '200.00', 'f05cd198ac9335245e1fdffa793207a7.jpg', NULL, '2023-01-22 07:22:33', NULL),
+(10, 'C++: The Complete Reference, 4th Edition', 5, 14, '007053246X', '142.00', '36af5de9012bf8c804e499dc3c3b33a5.jpg', 0, '2023-01-22 07:23:36', '2024-01-22 08:18:22'),
+(11, 'ASP.NET Core 5 for Beginners', 9, 11, 'GBSJ36344563', '422.00', 'b1b6788016bbfab12cfd2722604badc9.jpg', 0, '2024-01-22 08:14:21', '2025-01-22 08:15:23');
 
 -- --------------------------------------------------------
 
@@ -126,12 +126,12 @@ CREATE TABLE `tblcategory` (
 --
 
 INSERT INTO `tblcategory` (`id`, `CategoryName`, `Status`, `CreationDate`, `UpdationDate`) VALUES
-(4, 'Romantic', 1, '2022-01-22 07:23:03', '2022-01-22 07:23:03'),
-(5, 'Technology', 1, '2022-01-22 07:23:03', '2022-01-22 07:23:03'),
-(6, 'Science', 1, '2022-01-22 07:23:03', '2022-01-22 16:24:37'),
-(7, 'Management', 1, '2022-01-22 07:23:03', '2022-01-22 16:24:35'),
-(8, 'General', 1, '2022-01-22 07:23:03', '2022-01-22 16:24:40'),
-(9, 'Programming', 1, '2022-01-22 07:23:03', '2022-01-22 16:24:42');
+(4, 'maths', 1, '2023-01-22 07:23:03', '2024-01-22 07:23:03'),
+(5, 'Technology', 1, '2024-01-22 07:23:03', '2025-01-22 07:23:03'),
+(6, 'Science', 1, '2024-01-22 07:23:03', '2025-01-22 16:24:37'),
+(7, 'Management', 1, '2025-01-22 07:23:03', '2026-01-22 16:24:35'),
+(8, 'General', 1, '2023-01-22 07:23:03', '2024-01-22 16:24:40'),
+(9, 'Programming', 1, '2022-01-22 07:23:03', '2024-01-22 16:24:42');
 
 -- --------------------------------------------------------
 
