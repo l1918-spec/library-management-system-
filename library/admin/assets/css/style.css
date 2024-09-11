@@ -1,20 +1,4 @@
-﻿
-/*=============================================================
-    Authour URI: www.binarytheme.com
-    License: Commons Attribution 3.0
 
-    http://creativecommons.org/licenses/by/3.0/
-
-    100% Free To use For Personal And Commercial Use.
-    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
-    ========================================================  */
-
-
-
-/* =============================================================
-   GENERAL STYLES
- ============================================================ */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -41,10 +25,6 @@ body {
     padding-bottom:30px;
 }
 
-
-/* =============================================================
-   NAVBAR & MENU STYLES
- ============================================================ */
 
 .right-div {
     float: right; 
@@ -74,7 +54,7 @@ border-color: rgba(155, 153, 153, 0.23);
 
 .navbar {
     min-height: 90px;
-    margin-bottom: 0px;
+    margin-bottom: 3px;
    
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -85,9 +65,6 @@ background-color: black;
 border: 1px solid black;
 }
 
-    /* =============================================================
-   DASHBOARD STYLES
- ============================================================ */
 
 .img-comments {
    border: 3px double #e1e1e1;
